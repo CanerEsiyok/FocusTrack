@@ -1,4 +1,4 @@
-package org.powercoders.utilities;
+package com.blackstar.utilities;
 
 import java.io.FileInputStream;
 import java.io.IOException;

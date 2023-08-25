@@ -1,4 +1,4 @@
-package org.powercoders.runners;
+package com.blackstar.runners;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -15,9 +15,9 @@ import org.junit.runner.RunWith;
 
 
         },
-        glue = "org/powercoders/step_defs",
+        glue = "com/blackstar/step_defs",
         features = "src/test/resources/features",
-       // dryRun = true,
+      // dryRun = true,
         tags = "@wip",
         publish = true
 )

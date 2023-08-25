@@ -1,11 +1,11 @@
-package org.powercoders.step_defs;
+package com.blackstar.step_defs;
 
 
 import io.cucumber.java.After;
 import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.powercoders.utilities.Driver;
+import com.blackstar.utilities.Driver;
 
 /*
 In this class we will pass pre-& post-conditions to each scenario and each step
@@ -31,7 +31,7 @@ public class Hooks {
             scenario.attach(screenshot,"image/png",scenario.getName());
         }
 
-      //  Driver.closeDriver();
+        Driver.closeDriver();
     }
    /* @BeforeStep
     public void setupStep(){
