@@ -1,7 +1,7 @@
 Feature: Opening wikipedia
 
 
-  @wip
+
   Scenario: Wikipedia research
 
     Given user is on google main page
